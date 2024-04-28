@@ -6,7 +6,7 @@ function AppRoute(){
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="" element={<Pages />} />
+                <Route path="/vite-react-router/" element={<Pages />} />
             </Routes>
         </BrowserRouter>
     );
